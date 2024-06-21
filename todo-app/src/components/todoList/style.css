@@ -1,4 +1,10 @@
-.bucket_list{
+.bucket-list{
     width: 100%;
     margin-bottom: 1rem;
+}
+
+.btn-group{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
 }
