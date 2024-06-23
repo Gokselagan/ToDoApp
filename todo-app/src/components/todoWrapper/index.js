@@ -9,6 +9,7 @@ import styles from "./styles.css";
 export const TodoWrapper = () => {
 
     const [todos, setTodos] = useState([]);
+    const [filter, setFilter] = useState("all");
 
     const addTodo = todo => {
         setTodos([...todos, { id: uuidv4(), task: todo, completed: false, isEditing: false }])
@@ -31,14 +32,28 @@ export const TodoWrapper = () => {
         setTodos(todos.map(todo => todo.id === id ? {...todo, task, isEditing: !todo.isEditing} : todo))
     }
 
+    const handleFilterChange = (newFilter) => {
+        setFilter(newFilter);
+    }
+
+    const filteredTodos = todos.filter((todo)=>{
+        if(filter === "done") return todo.completed;
+        if(filter === "undone") return !todo.completed;
+        return true;
+    });
+
     return (
         <div className="wrapper">
             <h1>Bucket List!</h1>
+            <div className="btn-group">
+                <button type="submit" onClick={()=> handleFilterChange("done")}>Done</button>
+                <button type="submit" onClick={()=> handleFilterChange("all")}>All</button>
+                <button type="submit" onClick={()=> handleFilterChange("undone")}>Undone</button>
+            </div>
             <TodoList addTodo={addTodo} />
-            {todos.map((todo, index) => (
+            {filteredTodos.map((todo, index) => (
                 todo.isEditing ? (<EditTodoList editTodo={editTask} task={todo}/>) :
                     <Todo task={todo} key={index} toggleComplete={toggleComplete} deleteTodo={deleteTodo} editTodo={editTodo} />
-
             ))}
 
         </div>

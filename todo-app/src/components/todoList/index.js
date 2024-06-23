@@ -13,17 +13,10 @@ export const TodoList = ({ addTodo }) => {
 
     }
     return (
-        <>
-            <div className="btn-group">
-                <button type="submit">Done</button>
-                <button type="submit">All</button>
-                <button type="submit">Undone</button>
-            </div>
-            <form className="bucket-list" onSubmit={handleSubmit}>
+        <form className="bucket-list" onSubmit={handleSubmit}>
 
-                <input type="text" className="blInput" placeholder="text your dreams" value={value} onChange={(e) => setValue(e.target.value)} />
-                <button type="submit" className="blBtn">Add Dream</button>
-            </form>
-        </>
+            <input type="text" placeholder="text your dreams" value={value} onChange={(e) => setValue(e.target.value)} />
+            <button type="submit" >Add Dream</button>
+        </form>
     )
 }

@@ -1,10 +1,13 @@
 .bucket-list{
     width: 100%;
-    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
 }
 
-.btn-group{
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: space-around;
+input {
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+    height: 50px;
 }

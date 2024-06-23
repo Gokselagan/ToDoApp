@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  background: #433c3c;
+  background: #000;
   display: flex;
   justify-content: center;
   align-items: center;

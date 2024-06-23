@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #8758ff;
+    background-color: #000;
     color: #fff;
     padding: 0.75rem 1rem;
     border-radius: 5px;
@@ -10,11 +10,16 @@
 }
 
 .completed{
-    color: #c5aeff;
+    color: rgb(75, 190, 129);
     text-decoration: line-through;
     cursor: pointer;
 }
 
-.font>i{
-margin: 0px 3px
+.icon>i{
+margin: 0px 3px;
+cursor: pointer;
+}
+
+.icon>i:hover {
+    color: red;
 }

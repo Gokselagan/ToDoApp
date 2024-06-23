@@ -1,6 +1,25 @@
 .wrapper {
-    background-color: #6d6de0;
+    background-color: #707097;
     margin-top: 5rem;
     padding: 2rem ;
     border-radius: 5px;
+}
+
+h1{
+    margin-top: 0px;
+    letter-spacing: 0.5rem;
+    color: #fff;
+}
+
+.btn-group{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+ button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
 }
