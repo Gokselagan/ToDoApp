@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Bucket List Application
+This bucket list application allows users to create, manage, and track their goals and dreams. Users can add new items to their list, mark items as completed, edit existing items, and filter items based on their completion status.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Purpose
+The main purpose of this project is to prepare myself for job assignments by practicing building a full-featured application. Additionally, I personally enjoy using this application because I have my own bucket list, making the development process even more enjoyable.
 
-## Available Scripts
+Technologies Used
+HTML
+CSS
+JavaScript
+React
+uuid
 
-In the project directory, you can run:
+Features
+Add Item: Users can add new dreams or goals to their bucket list.
+Mark as Completed: Users can mark items as completed by clicking on them.
+Edit Item: Users can edit existing items.
+Delete Item: Users can delete items from the list.
+Filter Items: Users can filter items to show all, completed, or uncompleted items.
 
-### `npm start`
+How to Use
+Launch the Application: Open the index.html file in a web browser.
+Add New Dreams: Enter your dream in the "text your dreams" field and click the "Add Dream" button.
+Mark as Completed: Click on a dream to mark it as completed.
+Edit Dreams: Click the edit icon next to a dream to update it.
+Delete Dreams: Click the trash icon next to a dream to remove it.
+Filter Dreams: Use the filter buttons to view all, completed, or uncompleted dreams.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Project Access
+You can access this project from my GitHub profile: https://github.com/Gokselagan
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For more information and updates about the application, you can follow my GitHub profile.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Conclusion
+This bucket list application is a practical way to improve my skills and prepare for job-related tasks. It also serves as a fun and useful tool for managing personal goals and dreams.
